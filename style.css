@@ -1,0 +1,41 @@
+*{margin:0;padding:0; box-sizing: border-box;}
+body{color:#333; font-size:14px;font-family: 'Poppins', sans-serif;}
+.area{width:1170px; margin:0 auto;}
+.header {display:flex; justify-content:space-between; flex-direction:row; flex-wrap:wrap; align-items:center; padding:20px 0;}
+.logo a {text-transform:uppercase; text-decoration:none; color:#333; font-size:26px; font-weight:bold;}
+.menu ul {list-style:none; display:flex; flex-direction:row;}
+.menu ul li{text-decoration:none; color:#333; font-size:16px; padding:10px 20px; display:block}
+.menu ul li a{text-decoration:none; }
+.bannar img {width:100%; border:1px solid #ddd; padding:3px}
+.bannar {margin-bottom:15px;}
+.welcome {display:flex; flex-direction:row; flex-wrap:wrap; justify-content:between;}
+.welcome_menu {flex-basis:12%;}
+.welcome_menu ul {list-style:none}
+.welcome_menu ul li a{text-decoration:none; color:#333; font-size:16px;}
+.welcome_content {flex-basis:88%;}
+.welcome_menu  h4 , .welcome_content h4{text-transform:capitalize; font-size:20px; margin-bottom:10px;}
+.welcome_inner {display:flex; flex-wrap:wrap; margin-top:25px; justify-content:space-between;}
+.single_welcome {flex-basis:48%}
+
+.services {background:#f7f1f1;  padding:30px 10px;}
+.title {text-align:center; margin-bottom:40px;}
+.title  h4 {text-transform:uppercase; font-size:30px;}
+.services_box{display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-between;}
+.single_service {flex-basis:32%;}
+.single_service img{width:100%;}
+.single_service h4{font-size:20px; margin-bottom:10px;}
+.single_service a, .left_menu a{background:tomato; display:inline-block; text-decoration:none; text-transform:capitalize; color:#fff; padding:10px 15px; margin-top:20px; font-size:16px;}
+
+.about {padding:20px 0; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-between;}
+.left_menu {flex-basis:75%;}
+.about_menu {flex-basis:20%;}
+.left_menu h4, .about_menu h4 {text-transform:capitalize; font-size:20px; margin-bottom:10px;}
+.about_menu ul {list-style:none;}
+.about_menu ul li a{text-decoration:none; font-size:16px; color:#333;}
+
+.foooter_top {padding:20px 0; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-between;}
+.single_footer:nth-child(1){flex-basis:20%}
+.single_footer:nth-child(2){flex-basis:35%}
+.single_footer:nth-child(3){flex-basis:40%}
+.single_footer h4 {font-size:22px; margin-bottom:10px;}
+.footer {background:teal; text-align:center; padding:10px; color:#fff; font-weight:bold; margin-bottom:10px;}
